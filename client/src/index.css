@@ -1,22 +1,22 @@
 ﻿@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap");
 
 :root {
-  color-scheme: light;
+  color-scheme: dark;
   --font: "Space Grotesk", "Segoe UI", sans-serif;
-  --bg: radial-gradient(circle at top, #fdf5e8 0%, #f3efe6 40%, #f0e9dc 100%);
-  --panel: #fff7ee;
-  --list-bg: #fff1e4;
-  --row: #ffffff;
-  --row-hover: #ffe9d3;
-  --input: #fffdf8;
-  --chip: #fff1e8;
-  --ink: #2b2620;
-  --muted: #7a6f64;
-  --border: #e4d6c7;
-  --accent: #d76732;
-  --accent-strong: #b95323;
-  --accent-soft: #ffe2ce;
-  --shadow: 0 12px 40px rgba(124, 84, 55, 0.12);
+  --bg: radial-gradient(circle at 10% 20%, #1b2330 0%, #0f1218 55%, #0b0e13 100%);
+  --panel: #141a23;
+  --list-bg: #10151d;
+  --row: #19202b;
+  --row-hover: #212a38;
+  --input: #111722;
+  --chip: #121924;
+  --ink: #eef3fb;
+  --muted: #a6b0c0;
+  --border: #263244;
+  --accent: #4fb3a5;
+  --accent-strong: #3b9488;
+  --accent-soft: #1f3a3a;
+  --shadow: 0 18px 45px rgba(3, 6, 10, 0.6);
 }
 
 * {

@@ -108,6 +108,7 @@ button.ghost {
   border-radius: 10px;
   cursor: pointer;
   font-size: 13px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25);
 }
 
 button.ghost:hover {
@@ -118,7 +119,7 @@ button.ghost:hover {
   position: relative;
   height: 420px;
   overflow: auto;
-  border: 1px dashed var(--border);
+  border: 1px dashed rgba(255, 255, 255, 0.08);
   border-radius: 14px;
   background: var(--list-bg);
 }
@@ -141,18 +142,19 @@ button.ghost:hover {
   background: var(--row);
   border-radius: 10px;
   cursor: pointer;
-  border: 1px solid transparent;
-  transition: transform 120ms ease, background 120ms ease, border 120ms ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: transform 120ms ease, background 120ms ease, border 120ms ease, box-shadow 120ms ease;
 }
 
 .row:hover {
   background: var(--row-hover);
-  border-color: var(--border);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
 }
 
 .row-action {
-  background: transparent;
-  border: 1px solid var(--border);
+  background: var(--chip);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   color: var(--ink);
   font-size: 12px;
   padding: 6px 10px;
@@ -195,8 +197,8 @@ button.ghost:hover {
   color: var(--muted);
   font-size: 13px;
   pointer-events: none;
-  backdrop-filter: blur(2px);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.6));
+  backdrop-filter: blur(3px);
+  background: linear-gradient(180deg, rgba(9, 12, 18, 0.65), rgba(14, 20, 30, 0.7));
 }
 
 .count {
