@@ -1,0 +1,5 @@
+
+> pick-sort-1m@1.0.0 start
+> node server/dist/index.js
+
+server listening on 3001

@@ -1,0 +1,32 @@
+{
+  "name": "pick-sort-1m",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently -n server,client \"npm -w server run dev\" \"npm -w client run dev\"",
+    "build": "npm -w server run build && npm -w client run build",
+    "start": "node server/dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buytheaway/pick-sort-1m.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/buytheaway/pick-sort-1m/issues"
+  },
+  "homepage": "https://github.com/buytheaway/pick-sort-1m#readme",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

@@ -1,0 +1,7 @@
+npm error Lifecycle script `start` failed with error:
+npm error code 1
+npm error path C:\Users\mukha\OneDrive\Documents\GitHub\pick-sort-1m\server
+npm error workspace server@1.0.0
+npm error location C:\Users\mukha\OneDrive\Documents\GitHub\pick-sort-1m\server
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c node dist/index.js

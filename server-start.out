@@ -1,0 +1,5 @@
+
+> server@1.0.0 start
+> node dist/index.js
+
+server listening on 3001
